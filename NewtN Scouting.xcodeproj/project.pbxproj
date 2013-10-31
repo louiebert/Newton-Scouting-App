@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288F5AF716B8BEE00054B7D4 /* Figure3-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 288F5AF616B8BEE00054B7D4 /* Figure3-4.png */; };
 		28EADB2416B89DFC00272A78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EADB2316B89DFC00272A78 /* UIKit.framework */; };
 		28EADB2616B89DFC00272A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EADB2516B89DFC00272A78 /* Foundation.framework */; };
 		28EADB2816B89DFC00272A78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EADB2716B89DFC00272A78 /* CoreGraphics.framework */; };
@@ -16,30 +17,43 @@
 		28EADB3616B89DFC00272A78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3516B89DFC00272A78 /* Default.png */; };
 		28EADB3816B89DFC00272A78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3716B89DFC00272A78 /* Default@2x.png */; };
 		28EADB3A16B89DFC00272A78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3916B89DFC00272A78 /* Default-568h@2x.png */; };
-		28EADB3D16B89DFC00272A78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3B16B89DFC00272A78 /* MainStoryboard.storyboard */; };
 		28EADB4016B89DFC00272A78 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EADB3F16B89DFC00272A78 /* FirstViewController.m */; };
 		28EADB4216B89DFC00272A78 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4116B89DFC00272A78 /* first.png */; };
 		28EADB4416B89DFC00272A78 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4316B89DFC00272A78 /* first@2x.png */; };
 		28EADB4716B89DFC00272A78 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EADB4616B89DFC00272A78 /* SecondViewController.m */; };
 		28EADB4916B89DFC00272A78 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4816B89DFC00272A78 /* second.png */; };
 		28EADB4B16B89DFC00272A78 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4A16B89DFC00272A78 /* second@2x.png */; };
+		6663BAF716BB58D600308660 /* ReviewSubmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6663BAF616BB58D600308660 /* ReviewSubmit.m */; };
+		6663BAFA16BB58E800308660 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6663BAF916BB58E800308660 /* Settings.m */; };
+		667B12A816C49883000DDBA8 /* gearl.png in Resources */ = {isa = PBXBuildFile; fileRef = 667B12A716C49883000DDBA8 /* gearl.png */; };
+		667B12AA16C49895000DDBA8 /* stack.png in Resources */ = {isa = PBXBuildFile; fileRef = 667B12A916C49895000DDBA8 /* stack.png */; };
+		8847539D16CB2E710072E04F /* TowerClimbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8847539C16CB2E710072E04F /* TowerClimbing.m */; };
+		88572B8F16ED00E300FA3C4C /* DataPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 88572B8E16ED00E300FA3C4C /* DataPage.m */; };
+		8871B25616F184CC00D83990 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8871B25516F184CC00D83990 /* Strategy.m */; };
+		8888F25116E3DC14008D8A7D /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8888F25016E3DC14008D8A7D /* Data.plist */; };
+		8888F25416E3EE62008D8A7D /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888F25316E3EE62008D8A7D /* GlobalVariables.m */; };
+		888A63F116DE8AEC0081C404 /* MatchScouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 888BF44916CF06B500B1CD73 /* MatchScouting.m */; };
+		888A63F416DE8EBC0081C404 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888A63F216DE8EBC0081C404 /* MainStoryboard.storyboard */; };
+		8896025A16C1D57C000F0790 /* GearSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 8896025916C1D57C000F0790 /* GearSmall.png */; };
+		88D577AE17260308003BBD90 /* Newton pic 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D577AD17260308003BBD90 /* Newton pic 72.png */; };
+		88D577B01726030E003BBD90 /* Newton pic 144.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D577AF1726030E003BBD90 /* Newton pic 144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28EADB1F16B89DFB00272A78 /* Scouting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scouting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288F5AF616B8BEE00054B7D4 /* Figure3-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Figure3-4.png"; sourceTree = "<group>"; };
+		28EADB1F16B89DFB00272A78 /* NewtN Scouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewtN Scouting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EADB2316B89DFC00272A78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28EADB2516B89DFC00272A78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28EADB2716B89DFC00272A78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28EADB2B16B89DFC00272A78 /* Scouting App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scouting App-Info.plist"; sourceTree = "<group>"; };
+		28EADB2B16B89DFC00272A78 /* NewtN Scouting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewtN Scouting-Info.plist"; sourceTree = "<group>"; };
 		28EADB2D16B89DFC00272A78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28EADB2F16B89DFC00272A78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28EADB3116B89DFC00272A78 /* Scouting App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scouting App-Prefix.pch"; sourceTree = "<group>"; };
+		28EADB3116B89DFC00272A78 /* NewtN Scouting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewtN Scouting-Prefix.pch"; sourceTree = "<group>"; };
 		28EADB3216B89DFC00272A78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28EADB3316B89DFC00272A78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28EADB3516B89DFC00272A78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		28EADB3716B89DFC00272A78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		28EADB3916B89DFC00272A78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		28EADB3C16B89DFC00272A78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		28EADB3E16B89DFC00272A78 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		28EADB3F16B89DFC00272A78 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		28EADB4116B89DFC00272A78 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -48,6 +62,27 @@
 		28EADB4616B89DFC00272A78 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		28EADB4816B89DFC00272A78 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		28EADB4A16B89DFC00272A78 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		6663BAF516BB58D600308660 /* ReviewSubmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewSubmit.h; sourceTree = "<group>"; };
+		6663BAF616BB58D600308660 /* ReviewSubmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewSubmit.m; sourceTree = "<group>"; };
+		6663BAF816BB58E800308660 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		6663BAF916BB58E800308660 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		667B12A716C49883000DDBA8 /* gearl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gearl.png; path = Attachments_201327/gearl.png; sourceTree = SOURCE_ROOT; };
+		667B12A916C49895000DDBA8 /* stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stack.png; path = Attachments_201327/stack.png; sourceTree = SOURCE_ROOT; };
+		8847539B16CB2E710072E04F /* TowerClimbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerClimbing.h; sourceTree = "<group>"; };
+		8847539C16CB2E710072E04F /* TowerClimbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerClimbing.m; sourceTree = "<group>"; };
+		88572B8D16ED00E300FA3C4C /* DataPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPage.h; sourceTree = "<group>"; };
+		88572B8E16ED00E300FA3C4C /* DataPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPage.m; sourceTree = "<group>"; };
+		8871B25416F184CC00D83990 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		8871B25516F184CC00D83990 /* Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
+		8888F25016E3DC14008D8A7D /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = SOURCE_ROOT; };
+		8888F25216E3EE62008D8A7D /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		8888F25316E3EE62008D8A7D /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		888A63F316DE8EBC0081C404 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		888BF44816CF06B000B1CD73 /* MatchScouting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchScouting.h; sourceTree = "<group>"; };
+		888BF44916CF06B500B1CD73 /* MatchScouting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScouting.m; sourceTree = "<group>"; };
+		8896025916C1D57C000F0790 /* GearSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GearSmall.png; sourceTree = "<group>"; };
+		88D577AD17260308003BBD90 /* Newton pic 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Newton pic 72.png"; path = "../Newton pic 72.png"; sourceTree = "<group>"; };
+		88D577AF1726030E003BBD90 /* Newton pic 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Newton pic 144.png"; path = "../Newton pic 144.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +111,7 @@
 		28EADB2016B89DFB00272A78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28EADB1F16B89DFB00272A78 /* Scouting App.app */,
+				28EADB1F16B89DFB00272A78 /* NewtN Scouting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,17 +129,22 @@
 		28EADB2916B89DFC00272A78 /* Scouting App */ = {
 			isa = PBXGroup;
 			children = (
-				28EADB3216B89DFC00272A78 /* AppDelegate.h */,
-				28EADB3316B89DFC00272A78 /* AppDelegate.m */,
-				28EADB3B16B89DFC00272A78 /* MainStoryboard.storyboard */,
-				28EADB3E16B89DFC00272A78 /* FirstViewController.h */,
-				28EADB3F16B89DFC00272A78 /* FirstViewController.m */,
-				28EADB4116B89DFC00272A78 /* first.png */,
-				28EADB4316B89DFC00272A78 /* first@2x.png */,
-				28EADB4516B89DFC00272A78 /* SecondViewController.h */,
-				28EADB4616B89DFC00272A78 /* SecondViewController.m */,
-				28EADB4816B89DFC00272A78 /* second.png */,
-				28EADB4A16B89DFC00272A78 /* second@2x.png */,
+				888A63F216DE8EBC0081C404 /* MainStoryboard.storyboard */,
+				8888F25216E3EE62008D8A7D /* GlobalVariables.h */,
+				8888F25316E3EE62008D8A7D /* GlobalVariables.m */,
+				888BF44816CF06B000B1CD73 /* MatchScouting.h */,
+				888BF44916CF06B500B1CD73 /* MatchScouting.m */,
+				8847539B16CB2E710072E04F /* TowerClimbing.h */,
+				8847539C16CB2E710072E04F /* TowerClimbing.m */,
+				6663BAF516BB58D600308660 /* ReviewSubmit.h */,
+				6663BAF616BB58D600308660 /* ReviewSubmit.m */,
+				6663BAF816BB58E800308660 /* Settings.h */,
+				6663BAF916BB58E800308660 /* Settings.m */,
+				88572B8D16ED00E300FA3C4C /* DataPage.h */,
+				88572B8E16ED00E300FA3C4C /* DataPage.m */,
+				8871B25416F184CC00D83990 /* Strategy.h */,
+				8871B25516F184CC00D83990 /* Strategy.m */,
+				8888F25016E3DC14008D8A7D /* Data.plist */,
 				28EADB2A16B89DFC00272A78 /* Supporting Files */,
 			);
 			path = "Scouting App";
@@ -113,10 +153,26 @@
 		28EADB2A16B89DFC00272A78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28EADB2B16B89DFC00272A78 /* Scouting App-Info.plist */,
+				88D577AD17260308003BBD90 /* Newton pic 72.png */,
+				88D577AF1726030E003BBD90 /* Newton pic 144.png */,
+				667B12A916C49895000DDBA8 /* stack.png */,
+				667B12A716C49883000DDBA8 /* gearl.png */,
+				28EADB3E16B89DFC00272A78 /* FirstViewController.h */,
+				28EADB3F16B89DFC00272A78 /* FirstViewController.m */,
+				28EADB4516B89DFC00272A78 /* SecondViewController.h */,
+				28EADB4616B89DFC00272A78 /* SecondViewController.m */,
+				28EADB3216B89DFC00272A78 /* AppDelegate.h */,
+				28EADB3316B89DFC00272A78 /* AppDelegate.m */,
+				8896025916C1D57C000F0790 /* GearSmall.png */,
+				28EADB4316B89DFC00272A78 /* first@2x.png */,
+				28EADB4A16B89DFC00272A78 /* second@2x.png */,
+				28EADB4816B89DFC00272A78 /* second.png */,
+				288F5AF616B8BEE00054B7D4 /* Figure3-4.png */,
+				28EADB4116B89DFC00272A78 /* first.png */,
+				28EADB2B16B89DFC00272A78 /* NewtN Scouting-Info.plist */,
 				28EADB2C16B89DFC00272A78 /* InfoPlist.strings */,
 				28EADB2F16B89DFC00272A78 /* main.m */,
-				28EADB3116B89DFC00272A78 /* Scouting App-Prefix.pch */,
+				28EADB3116B89DFC00272A78 /* NewtN Scouting-Prefix.pch */,
 				28EADB3516B89DFC00272A78 /* Default.png */,
 				28EADB3716B89DFC00272A78 /* Default@2x.png */,
 				28EADB3916B89DFC00272A78 /* Default-568h@2x.png */,
@@ -127,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28EADB1E16B89DFB00272A78 /* Scouting App */ = {
+		28EADB1E16B89DFB00272A78 /* NewtN Scouting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EADB4E16B89DFC00272A78 /* Build configuration list for PBXNativeTarget "Scouting App" */;
+			buildConfigurationList = 28EADB4E16B89DFC00272A78 /* Build configuration list for PBXNativeTarget "NewtN Scouting" */;
 			buildPhases = (
 				28EADB1B16B89DFB00272A78 /* Sources */,
 				28EADB1C16B89DFB00272A78 /* Frameworks */,
@@ -139,9 +195,9 @@
 			);
 			dependencies = (
 			);
-			name = "Scouting App";
+			name = "NewtN Scouting";
 			productName = "Scouting App";
-			productReference = 28EADB1F16B89DFB00272A78 /* Scouting App.app */;
+			productReference = 28EADB1F16B89DFB00272A78 /* NewtN Scouting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +209,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Louie Bertoncin";
 			};
-			buildConfigurationList = 28EADB1916B89DFB00272A78 /* Build configuration list for PBXProject "Scouting App" */;
+			buildConfigurationList = 28EADB1916B89DFB00272A78 /* Build configuration list for PBXProject "NewtN Scouting" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28EADB1E16B89DFB00272A78 /* Scouting App */,
+				28EADB1E16B89DFB00272A78 /* NewtN Scouting */,
 			);
 		};
 /* End PBXProject section */
@@ -179,11 +235,18 @@
 				28EADB3616B89DFC00272A78 /* Default.png in Resources */,
 				28EADB3816B89DFC00272A78 /* Default@2x.png in Resources */,
 				28EADB3A16B89DFC00272A78 /* Default-568h@2x.png in Resources */,
-				28EADB3D16B89DFC00272A78 /* MainStoryboard.storyboard in Resources */,
 				28EADB4216B89DFC00272A78 /* first.png in Resources */,
 				28EADB4416B89DFC00272A78 /* first@2x.png in Resources */,
 				28EADB4916B89DFC00272A78 /* second.png in Resources */,
 				28EADB4B16B89DFC00272A78 /* second@2x.png in Resources */,
+				288F5AF716B8BEE00054B7D4 /* Figure3-4.png in Resources */,
+				8896025A16C1D57C000F0790 /* GearSmall.png in Resources */,
+				667B12A816C49883000DDBA8 /* gearl.png in Resources */,
+				667B12AA16C49895000DDBA8 /* stack.png in Resources */,
+				888A63F416DE8EBC0081C404 /* MainStoryboard.storyboard in Resources */,
+				8888F25116E3DC14008D8A7D /* Data.plist in Resources */,
+				88D577AE17260308003BBD90 /* Newton pic 72.png in Resources */,
+				88D577B01726030E003BBD90 /* Newton pic 144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +261,13 @@
 				28EADB3416B89DFC00272A78 /* AppDelegate.m in Sources */,
 				28EADB4016B89DFC00272A78 /* FirstViewController.m in Sources */,
 				28EADB4716B89DFC00272A78 /* SecondViewController.m in Sources */,
+				6663BAF716BB58D600308660 /* ReviewSubmit.m in Sources */,
+				6663BAFA16BB58E800308660 /* Settings.m in Sources */,
+				8847539D16CB2E710072E04F /* TowerClimbing.m in Sources */,
+				888A63F116DE8AEC0081C404 /* MatchScouting.m in Sources */,
+				8888F25416E3EE62008D8A7D /* GlobalVariables.m in Sources */,
+				88572B8F16ED00E300FA3C4C /* DataPage.m in Sources */,
+				8871B25616F184CC00D83990 /* Strategy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,10 +282,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		28EADB3B16B89DFC00272A78 /* MainStoryboard.storyboard */ = {
+		888A63F216DE8EBC0081C404 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28EADB3C16B89DFC00272A78 /* en */,
+				888A63F316DE8EBC0081C404 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -279,9 +349,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Scouting App/Scouting App-Prefix.pch";
-				INFOPLIST_FILE = "Scouting App/Scouting App-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Scouting App/NewtN Scouting-Prefix.pch";
+				INFOPLIST_FILE = "Scouting App/NewtN Scouting-Info.plist";
+				PRODUCT_NAME = "NewtN Scouting";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,9 +360,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Scouting App/Scouting App-Prefix.pch";
-				INFOPLIST_FILE = "Scouting App/Scouting App-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Scouting App/NewtN Scouting-Prefix.pch";
+				INFOPLIST_FILE = "Scouting App/NewtN Scouting-Info.plist";
+				PRODUCT_NAME = "NewtN Scouting";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -300,7 +370,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28EADB1916B89DFB00272A78 /* Build configuration list for PBXProject "Scouting App" */ = {
+		28EADB1916B89DFB00272A78 /* Build configuration list for PBXProject "NewtN Scouting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EADB4C16B89DFC00272A78 /* Debug */,
@@ -309,13 +379,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EADB4E16B89DFC00272A78 /* Build configuration list for PBXNativeTarget "Scouting App" */ = {
+		28EADB4E16B89DFC00272A78 /* Build configuration list for PBXNativeTarget "NewtN Scouting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EADB4F16B89DFC00272A78 /* Debug */,
 				28EADB5016B89DFC00272A78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
