@@ -26,7 +26,6 @@
 		667B12A816C49883000DDBA8 /* gearl.png in Resources */ = {isa = PBXBuildFile; fileRef = 667B12A716C49883000DDBA8 /* gearl.png */; };
 		667B12AA16C49895000DDBA8 /* stack.png in Resources */ = {isa = PBXBuildFile; fileRef = 667B12A916C49895000DDBA8 /* stack.png */; };
 		8847539D16CB2E710072E04F /* TowerClimbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8847539C16CB2E710072E04F /* TowerClimbing.m */; };
-		884AC4891821F62500785760 /* CompleteBogus.m in Sources */ = {isa = PBXBuildFile; fileRef = 884AC4881821F62500785760 /* CompleteBogus.m */; };
 		88572B8F16ED00E300FA3C4C /* DataPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 88572B8E16ED00E300FA3C4C /* DataPage.m */; };
 		8871B25616F184CC00D83990 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8871B25516F184CC00D83990 /* Strategy.m */; };
 		8888F25116E3DC14008D8A7D /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8888F25016E3DC14008D8A7D /* Data.plist */; };
@@ -65,8 +64,6 @@
 		667B12A916C49895000DDBA8 /* stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stack.png; path = Attachments_201327/stack.png; sourceTree = SOURCE_ROOT; };
 		8847539B16CB2E710072E04F /* TowerClimbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerClimbing.h; sourceTree = "<group>"; };
 		8847539C16CB2E710072E04F /* TowerClimbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowerClimbing.m; sourceTree = "<group>"; };
-		884AC4871821F62500785760 /* CompleteBogus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteBogus.h; sourceTree = "<group>"; };
-		884AC4881821F62500785760 /* CompleteBogus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteBogus.m; sourceTree = "<group>"; };
 		88572B8D16ED00E300FA3C4C /* DataPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPage.h; sourceTree = "<group>"; };
 		88572B8E16ED00E300FA3C4C /* DataPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPage.m; sourceTree = "<group>"; };
 		8871B25416F184CC00D83990 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
@@ -143,8 +140,6 @@
 				8871B25516F184CC00D83990 /* Strategy.m */,
 				8888F25016E3DC14008D8A7D /* Data.plist */,
 				28EADB2A16B89DFC00272A78 /* Supporting Files */,
-				884AC4871821F62500785760 /* CompleteBogus.h */,
-				884AC4881821F62500785760 /* CompleteBogus.m */,
 			);
 			path = "Scouting App";
 			sourceTree = "<group>";
@@ -255,7 +250,6 @@
 				28EADB3016B89DFC00272A78 /* main.m in Sources */,
 				28EADB3416B89DFC00272A78 /* AppDelegate.m in Sources */,
 				6663BAF716BB58D600308660 /* ReviewSubmit.m in Sources */,
-				884AC4891821F62500785760 /* CompleteBogus.m in Sources */,
 				6663BAFA16BB58E800308660 /* Settings.m in Sources */,
 				8847539D16CB2E710072E04F /* TowerClimbing.m in Sources */,
 				888A63F116DE8AEC0081C404 /* MatchScouting.m in Sources */,
