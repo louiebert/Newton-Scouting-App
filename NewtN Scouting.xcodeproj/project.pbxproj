@@ -17,10 +17,8 @@
 		28EADB3616B89DFC00272A78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3516B89DFC00272A78 /* Default.png */; };
 		28EADB3816B89DFC00272A78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3716B89DFC00272A78 /* Default@2x.png */; };
 		28EADB3A16B89DFC00272A78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB3916B89DFC00272A78 /* Default-568h@2x.png */; };
-		28EADB4016B89DFC00272A78 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EADB3F16B89DFC00272A78 /* FirstViewController.m */; };
 		28EADB4216B89DFC00272A78 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4116B89DFC00272A78 /* first.png */; };
 		28EADB4416B89DFC00272A78 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4316B89DFC00272A78 /* first@2x.png */; };
-		28EADB4716B89DFC00272A78 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EADB4616B89DFC00272A78 /* SecondViewController.m */; };
 		28EADB4916B89DFC00272A78 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4816B89DFC00272A78 /* second.png */; };
 		28EADB4B16B89DFC00272A78 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EADB4A16B89DFC00272A78 /* second@2x.png */; };
 		6663BAF716BB58D600308660 /* ReviewSubmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6663BAF616BB58D600308660 /* ReviewSubmit.m */; };
@@ -54,12 +52,8 @@
 		28EADB3516B89DFC00272A78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		28EADB3716B89DFC00272A78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		28EADB3916B89DFC00272A78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		28EADB3E16B89DFC00272A78 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		28EADB3F16B89DFC00272A78 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		28EADB4116B89DFC00272A78 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		28EADB4316B89DFC00272A78 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		28EADB4516B89DFC00272A78 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		28EADB4616B89DFC00272A78 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		28EADB4816B89DFC00272A78 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		28EADB4A16B89DFC00272A78 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		6663BAF516BB58D600308660 /* ReviewSubmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewSubmit.h; sourceTree = "<group>"; };
@@ -157,10 +151,6 @@
 				88D577AF1726030E003BBD90 /* Newton pic 144.png */,
 				667B12A916C49895000DDBA8 /* stack.png */,
 				667B12A716C49883000DDBA8 /* gearl.png */,
-				28EADB3E16B89DFC00272A78 /* FirstViewController.h */,
-				28EADB3F16B89DFC00272A78 /* FirstViewController.m */,
-				28EADB4516B89DFC00272A78 /* SecondViewController.h */,
-				28EADB4616B89DFC00272A78 /* SecondViewController.m */,
 				28EADB3216B89DFC00272A78 /* AppDelegate.h */,
 				28EADB3316B89DFC00272A78 /* AppDelegate.m */,
 				8896025916C1D57C000F0790 /* GearSmall.png */,
@@ -259,8 +249,6 @@
 			files = (
 				28EADB3016B89DFC00272A78 /* main.m in Sources */,
 				28EADB3416B89DFC00272A78 /* AppDelegate.m in Sources */,
-				28EADB4016B89DFC00272A78 /* FirstViewController.m in Sources */,
-				28EADB4716B89DFC00272A78 /* SecondViewController.m in Sources */,
 				6663BAF716BB58D600308660 /* ReviewSubmit.m in Sources */,
 				6663BAFA16BB58E800308660 /* Settings.m in Sources */,
 				8847539D16CB2E710072E04F /* TowerClimbing.m in Sources */,
